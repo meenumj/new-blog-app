@@ -19,6 +19,9 @@ const NavBar = () => {
           <Link className="nav-link" to="/viewpost">View All Post</Link>
         </li>
         <li className="nav-item">
+          <Link className="nav-link" to="/viewmypost">View My Post</Link>
+        </li>
+        <li className="nav-item">
           <Link className="nav-link" to="/">Logout</Link>
         </li>
       </ul>
